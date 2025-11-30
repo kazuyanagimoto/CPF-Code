@@ -1,0 +1,5 @@
+*.log
+.DS_Store
+01_CPF_docs/
+02_Country_Data_Origin/
+12_CPF_out_data/
