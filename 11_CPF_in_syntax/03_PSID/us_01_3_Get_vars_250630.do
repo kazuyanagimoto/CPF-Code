@@ -1630,6 +1630,8 @@ G31/L39 'Are you Spanish, Hispanic, or Latino?--That is, Mexican, Mexican Americ
 **-------------------------------------------
 combvars country_born, list("[97]ER33422 [99]ER33525") //ind file --> if cob is not US. For coding see do-file "us_02add_labels_COB.do"
 
+combvars state_res, list("[68]V93 [69]V537 [70]V1103 [71]V1803 [72]V2403 [73]V3003 [74]V3403 [75]V3803 [76]V4303 [77]V5203 [78]V5703 [79]V6303 [80]V6903 [81]V7503 [82]V8203 [83]V8803 [84]V10003 [85]V11103 [86]V12503 [87]V13703 [88]V14803 [89]V16303 [90]V17703 [91]V19003 [92]V20303 [93]V21603 [94]ER4157 [95]ER6997 [96]ER9248 [97]ER10004 [99]ER13005 [01]ER17005 [03]ER21004 [05]ER25004 [07]ER36004 [09]ER42004 [11]ER47304 [13]ER53004 [15]ER60004 [17]ER66004 [19]ER72004 [21]ER78004 [23]ER82004") // Current State of Residence
+
 combvars state_born, list("[97]ER33421 [99]ER33524") // state info 97 and 99
 
 combvars state_H, list("[13]ER57651 [15]ER64802 [17]ER70874 [19]ER76889 [21]ER81136 [23]ER85113" ) //Head
